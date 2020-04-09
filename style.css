@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.10),rgba(0,0,0,0.10)), url("Artboard 1.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover ;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px transparent;
+}
+
+ul li a:hover{
+    background-color: wheat;
+    color: black;
+}
+ul li.active a{
+    background-color: wheat;
+    color: black;
+}
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+color: brown;
+font-size: 65px;
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    color: blue;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid brown;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: wheat;
+    color: black;
+}
+.searchBar{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input{
+    border: 3px solid brown;
+    height: 50px;
+    width: 400px;
+    border-radius: 50px;
+    padding: 0px 10px;
+    background-color: wheat;
+
+}
+.cari{
+    float: right;
+    font-size: 40px;
+    border-left: none; 
+    cursor: pointer;
+    color: brown;
+}
